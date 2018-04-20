@@ -1,11 +1,12 @@
 ## Demo
 
 
-DEMO LINK
+DEMO LINK:
+https://factbook-2.herokuapp.com/
 
 
 ## Factbook
-Displays country infomation using CIA's _factbook_ dataset.
+Displays country information using CIA's _factbook_ dataset.
 
 Created with react, redux, and material design.
 
