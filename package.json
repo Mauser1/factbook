@@ -7,9 +7,10 @@
     "node": "9.5.0"
   },
   "scripts": {
-    "start": "yarn build &&  node server.js",
+    "start": "node server.js",
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
+    "postinstall": "yarn build",
     "lint": "eslint .",
     "lintfix": "eslint . --fix"
   },
